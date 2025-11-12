@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "http://localhost:8080/students";
+const BASE_URL = "https://ct5106-full-stack-app-testing.onrender.com/students";
 
 export const getStudents = async () => {
   const res = await axios.get(BASE_URL);
